@@ -1,4 +1,15 @@
+git init
+git add .
+git commit -m "Se suben los archivos del proyecto"
+git remote add origin https://github
+git push -f origin master
+
+
+
 git checkout master  
  git branch main master -f 
    git checkout main 
  git push origin main -f 
+
+
+
