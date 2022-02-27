@@ -13,3 +13,11 @@ git checkout master
 
 
 exacomit---> beca
+
+branches..............
+git init
+git switch -c new-branch1
+git add .
+git commit -m "Se suben los archivos del proyecto"
+git remote add origin https://github
+git push --set-upstream origin new-branch1
